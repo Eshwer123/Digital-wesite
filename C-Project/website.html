@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Eletronics</title>
+        
+        <style>
+            body{
+            background-color: #000000;
+              }
+            p{
+                color: orange;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            }
+            .logo{
+                width: 100px;
+                height: 100px;
+                display: block;
+                margin-left: auto;
+                margin-top: 15px;
+                display: inline-block;               
+            }
+            .psg{
+                width: 100px;
+                height: 100px;
+                display: block;
+                margin-left:100px;
+                margin-top: 15px;
+                display: inline-block;
+            }
+            .h{
+                color: yellow;
+                margin-left: 150px;
+                font-weight: bold;
+                font-size:60px;                
+                line-height: 5px;
+                display: inline-block;
+               }
+            
+            .intro,.BG,.CC,.u{
+                line-height: 42px;
+                text-align: justify;
+                font-size: 30px;
+            }
+            .c{
+                color: rgb(13, 242, 223);
+                font-weight: bold;
+                font-style: italic;
+                font-size: 35px;             
+            }
+            .a,.cc,.uses,.ex{
+                font-weight: bold;
+                font-style: italic;
+                font-size: 35px;
+                color: rgb(13, 242, 223);
+            }
+            .types{
+                font-size: 33px;
+                font-style: italic;
+                font-weight: bold;
+                color: rgb(13, 242, 223);
+
+            }
+            li{
+                font-size: 30px;
+                margin-left: 30px;
+                line-height: 70px;
+                list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23FFA500"><g transform="scale(0.6) translate(0,10)" transform-origin="center"><path d="M12 21c-.26 0-.51-.1-.71-.29a.996.996 0 0 1 0-1.41l7.29-7.29-7.29-7.29a.996.996 0 1 1 1.41-1.41l8 8c.39.39.39 1.02 0 1.41l-8 8c-.2.2-.45.29-.71.29ZM4 21c-.26 0-.51-.1-.71-.29a.996.996 0 0 1 0-1.41l7.29-7.29-7.29-7.3A.996.996 0 1 1 4.7 3.3l8 8c.39.39.39 1.02 0 1.41l-8 8c-.2.2-.45.29-.71.29Z"></path></g></svg>')
+            }
+            li::marker{
+                font-size: 100px;
+                line-height: .1;
+            }
+            .point{
+                color: orange;
+                background-color: transparent; 
+                text-decoration: none;    
+            }
+            a{
+                color: orange;  
+                text-decoration: none;             
+            }
+            a:hover{
+                color:yellow;
+                text-decoration: underline; 
+                background-color: transparent;              
+            }
+            #wrapper{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+        <img class="logo" src="img/logo.jpg">
+        <p class="h" >Learn Digital Electronics</p>        
+        <img class="psg" src="img/psg.png">        
+        <P class="intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This website holds options for various combinational and
+            sequential circuits, which on selection provides basic information about it's functioning and also
+            demonstrates the working by giving outputs for various inputs. This is done by integrating the
+            logic of hardware gate components onto C and creating combinational circuits that generates
+            outputs based on it's functioning. The site also contains details like logic diagrams, truth tables.</P>
+        <p class="c"><u>CONTENTS:</u></p>
+        <p class="a">1. Boolean Gates:</p>
+        <p class="BG">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                These are important digital devices that are mainly based on the Boolean function. Logic gates are used to carry out logical operations on single or multiple binary inputs and give one binary output. In simple terms, logic gates are the electronic circuits in a digital system.   
+        </p>
+        <p class="types">
+                Types of Basic Logic Gates:
+        </p>
+        <ul class="point">
+           <li class="and"><a href="bgates/and.html">AND</a></li>
+           <li class="or"><a href="bgates/or.html">OR</a></li>
+           <li clas="not"><a href="bgates/not.html">NOT</a></li>
+           <li clas="xor"><a href="bgates/xor.html">XOR</a></li>
+           <li clas="NAND"><a href="bgates/nand.html">NAND</a></li>
+           <li clas="xnor"><a href="bgates/xnor.html">XNOR</a></li>
+           <li clas="nor"><a href="bgates/nor.html">NOR</a></li>
+        </ul>
+        <p class="cc">2. Code Convertors: </p>
+        <p class="CC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A code converter circuit will convert coded information in one form to a different coding form. One example of code conversion is to convert BCD to straight binary. The weighting of BCD bits is not the same as straight binary.</p>
+        <p class="uses">Uses:</p>
+        <p class="u">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is sometimes necessary to interface two digital blocks of different coding systems. A conversion circuit must be inserted between two such digital systems to use information of one digital system to other. Therefore, a code converter circuit makes two systems compatible when two systems use different binary codes.</p>
+        <p class="ex">Examples:</p>
+        <ul>
+            <li class="BTB"><a href="codecon/BTB.html">Binary to BCD</a></li>
+            <li class="BTB"><a href="codecon/BTE3.html">BCD to Excess 3</a></li>
+        </ul>
+        
+    </div>
+    </body>
+</html>
